@@ -1,0 +1,18 @@
+.about .heading {
+    color: orange;
+  }
+   
+  .about h2.heading {
+    color: pink;
+  }
+   
+  section.about .heading {
+    color: yellow;
+  }
+  /* section.about .heading e .about h2.heading
+  tÊm o mesmo valor de specifity logo vence o mais recente
+  de ordem de leitura do html cima pra baixo. 
+  .about .heading - 20
+  .about h2.heading - 21
+  section.about .heading - 21
+  */

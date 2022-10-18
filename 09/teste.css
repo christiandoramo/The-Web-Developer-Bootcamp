@@ -1,0 +1,128 @@
+body {
+    font-family: 'Roboto';
+    font-size: 1em;
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: black;
+    margin: 0 5%;
+}
+
+p span {
+    font-family: 'Times New Roman' bold;
+    color: pink;
+    font-size: 100px;
+}
+
+table {
+    border-style: inset;
+    border-color: white;
+    background-color: rgb(127, 127, 127);
+    margin: 0 auto;
+    padding: 0;
+}
+
+tr,
+td,
+th {
+    border-style: inset;
+    border-color: white;
+    border-width: auto;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+}
+
+h1 {
+    font-size: 12em;
+}
+
+h2 {
+    font-size: 6em;
+}
+
+h3 {
+    font-size: 3em;
+}
+
+section img {
+    border-style: solid;
+    padding: 2%;
+    background-color: white;
+    border-color: black;
+    width: calc(30%/3);
+    height: auto;
+    margin: 0 calc(30%/6);
+}
+
+footer {
+    background-color: grey;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    margin: 0, 4em, 0, 0;
+}
+
+footer img {
+    width: 1em;
+    margin: 0, 4em, 0, 0;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+section:first-of-type {
+    background-color: #f0f;
+}
+
+section:nth-of-type(2) {
+    background-color: #0ff;
+}
+
+section:nth-of-type(3) {
+    background-color: #ff0;
+}
+
+.portifolio {
+    margin: 5% auto;
+}
+
+header {
+    background-color: greenyellow;
+    border-color: crimson;
+    border-style: dotted;
+    position: fixed;
+    top: 0;
+    left: 25%;
+    right: 25%;
+    width: auto;
+    margin: auto;
+    font-style: bold;
+    display: block;
+}
+
+header div {
+    display: inline-block;
+    background-color: grey;
+    border-color: black;
+    border-style: inset;
+    margin: 0 calc(30%/3);
+    transition: background-color 1s ease-in 0.5s;
+}
+
+header div:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+}

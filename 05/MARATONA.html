@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Maratona</title>
+</head>
+
+<body>
+    <h1>Cadastro</h1>
+    <form>
+        <div>
+            <label for="firstname">First Name</label>
+            <input type="text" name="Firstname" id="firstname" placeholder="First Name" minlength="5" maxlength="20"
+                required>
+        </div>
+        <div>
+            <label for="lastname">Last Name</label>
+            <input type="text" name="LastName" id="lastname" placeholder="Last Name" minlength="5" maxlength="20"
+                required>
+        </div>
+        <h2>Select a race</h2>
+        <div required>
+            <input type="radio" name="race" id="ForFun" value = "fun" required>
+            <label for="ForFun">For Fun</label> <br>
+            <input type="radio" name="race" id="Half Marathon" value ="half" required>
+            <label for="Half Marathon">Half Marathon</label>  <br>
+            <input type="radio" name="race" id="FullMarathon" value="full" required>
+            <label for="FullMarathon">Full Marathon</label>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="Email" id="email" placeholder="Your best email" required>
+        </div>
+        <div>
+            <label for="pass">Password</label>
+            <input type="password" name="password" id="pass" placeholder="Your Password" minlength="5" maxlength="20"
+                required>
+        </div>
+        <label for="ages">Select the Age Group</label>>
+        <select name="Ages" id="ages" required>
+            <!-- Realmente aplica o valor 0 logo funciona o required restrigindo o submit ctrl k c comenta e shift alt f formata ctrl p abre 
+            o pallete comando do vs code segurar alt e aperta mouse seleciona varios lugares 
+            para digitar assim ¨& ¨& ¨& ¨&  ¨&  ¨&  ¨&  ¨& ¨&-->
+            <option value="">--Select one-</option>
+            <option value="Under 18">Under 18</option>
+            <option value="Adults">Adults</option>
+        </select>
+        <button type="submit">Register</button>
+    </form>
+</body>
+
+</html>
